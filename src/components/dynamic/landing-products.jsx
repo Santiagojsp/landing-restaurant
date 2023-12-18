@@ -50,7 +50,7 @@ export default function LandingProducts() {
                                     </p> 
                                 </section>
 
-                                <p className="text-sm  text-blue-500">
+                                <p className="text-md  text-blue-500">
                                     €{ product.price }
                                 </p> 
                             </div>

@@ -23,5 +23,92 @@ import LandingProducts from "../components/dynamic/landing-products.jsx"
 		<LandingProducts client:load />
 
 		<Reviews client:load />
+
+		<div class="border-b mt-16 mb-10 pb-7 flex items-center justify-between">
+			<section>
+				<h2 class="text-4xl">
+					¿Quieres que te contactemos?
+				</h2>
+	
+				<p class="text-md mt-3 text-blue-500">
+					Deja tu correo y te contactaremos lo antes posible.
+				</p>
+			</section>
+
+			<div class="border border-black flex items-center gap-5 px-4 py-3">
+				<span class="material-symbols-outlined">
+					email
+				</span>
+
+				<input
+					type="text"
+					placeholder="Dirección de correo"
+				/>
+			</div>
+		</div>
+
+		<div class="mb-20 flex justify-center items-center">
+			<section class="flex flex-col gap-3 px-10 border-r h-[200px] justify-center">
+				<h2 class="text-4xl font-extrabold">
+					Dirección
+				</h2>
+
+				<p>Plaza Cataluña, 20, Barcelona</p>
+			</section>
+
+			<section class="flex flex-col gap-3 px-20 border-r h-[200px] justify-center">
+				<h2 class="text-4xl font-extrabold">
+					Horario
+				</h2>
+
+				<div class="flex gap-5 items-center">
+					<p class="flex-1">Lunes a Viernes</p>
+					
+					<div class="flex items-center gap-2">
+						<span class="bg-gray-100 px-2 py-1">
+							10:00
+						</span> 
+						
+						- 
+
+						<span class="bg-gray-100 px-2 py-1">
+							22:00
+						</span>
+					</div>
+				</div>
+
+				<div class="flex gap-5 items-center">
+					<p class="flex-1">Sábado</p>
+					
+					<div class="flex items-center gap-2">
+						<span class="bg-blue-400 text-white px-2 py-1">
+							13:00
+						</span> 
+						
+						- 
+
+						<span class="bg-blue-400 text-white px-2 py-1">
+							24:00
+						</span>
+					</div>
+				</div>
+
+				<div class="flex gap-5 items-center">
+					<p class="flex-1">Domingo</p>
+					
+					<div class="bg-orange-400 text-white px-2 py-1">
+						Cerrado
+					</div>
+				</div>
+			</section>
+
+			<section class="flex flex-col gap-3 px-10 h-[200px] justify-center">
+				<h2 class="text-4xl font-extrabold">
+					Contáctanos
+				</h2>
+
+				<p>contacto@restaurantesluxe.com</p>
+			</section>
+		</div> 
 	</main>
 </Template>
