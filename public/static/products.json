@@ -1,0 +1,114 @@
+{
+    "categories": [ 
+        {
+            "name": "Más conocidos",
+            "image": "https://www.nicepng.com/png/full/54-546056_aged-care-diet-consultants-food-plate-top-view.png"
+        },
+        {
+            "name": "Vinos",
+            "image": "https://png.pngtree.com/png-vector/20230902/ourmid/pngtree-wine-glass-isolate-png-image_9530163.png"
+        },
+        {
+            "name": "Especialidades",
+            "image": "https://i.pinimg.com/originals/ac/6b/fd/ac6bfd9ed461fab5aad246a4e4d46cd8.png"
+        }
+    ], 
+    "products": [
+        {
+            "name": "Albondigas en salsa",
+            "price": 12.30,
+            "category": "Más conocidos",
+            "description": "Albondigas en salsa de tomate casera"
+        },
+        {
+            "name": "Alitas de pollo",
+            "price": 10.50,
+            "category": "Más conocidos",
+            "description": "Alitas de pollo fritas"
+        },
+        {
+            "name": "Almejas a la marinera",
+            "price": 15.00,
+            "category": "Más conocidos",
+            "description": "Almejas a la marinera con salsa de tomate"
+        }, 
+        {
+            "name": "Arroz a la cubana",
+            "price": 8.50,
+            "category": "Más conocidos",
+            "description": "Arroz con tomate y huevo frito"
+        }, 
+        {
+            "name": "Arroz con bogavante",
+            "price": 18.50,
+            "category": "Más conocidos",
+            "description": "Arroz con bogavante"
+        },
+        {
+            "name": "Arroz con leche",
+            "price": 5.50,
+            "category": "Más conocidos",
+            "description": "Arroz con leche"
+        },
+        {
+            "name": "Arroz con pollo",
+            "price": 10.50,
+            "category": "Más conocidos",
+            "description": "Arroz con pollo"
+        },
+        {
+            "name": "Riveiro", 
+            "price": 12.50,
+            "category": "Vinos",
+            "description": "Vino blanco de la zona de Galicia"
+        }, 
+        {
+            "name": "Rioja",
+            "price": 10.50,
+            "category": "Vinos",
+            "description": "Vino tinto de la zona de La Rioja"
+        },
+        {
+            "name": "Ribera del Duero",
+            "price": 11.50,
+            "category": "Vinos",
+            "description": "Vino tinto de la zona de Ribera del Duero"
+        },
+        {
+            "name": "Rueda",
+            "price": 9.50,
+            "category": "Vinos",
+            "description": "Vino blanco de la zona de Rueda"
+        },
+        {
+            "name": "Ribeiro",
+            "price": 10.50,
+            "category": "Vinos",
+            "description": "Vino blanco de la zona de Ribeiro"
+        },
+        {
+            "name": "Calamares a la romana",
+            "price": 12.50,
+            "category": "Especialidades",
+            "description": "Calamares a la romana"
+        },
+        {
+            "name": "Calamares en su tinta",
+            "price": 15.50,
+            "category": "Especialidades",
+            "description": "Calamares en su tinta"
+        },
+        {
+            "name": "Canelones",
+            "price": 10.50,
+            "category": "Especialidades",
+            "description": "Canelones de carne"
+        },
+        {
+            "name": "Canelones de carne",
+            "price": 12.50,
+            "category": "Especialidades",
+            "description": "Canelones de carne"
+        }
+    ]
+}

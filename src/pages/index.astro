@@ -1,0 +1,27 @@
+---
+
+import Template from "../layouts/template.astro"
+import Reviews from "../components/dynamic/reviews.jsx"
+import LandingProducts from "../components/dynamic/landing-products.jsx"
+
+---
+
+<Template>
+	<main class="mt-5 w-[1100px]"> 
+		<div class="flex my-12 items-center">
+			<section class="flex flex-col">
+				<h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Degustando el Arte de la <span class="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Exquisitez</span></h1>
+				<p class="text-lg font-normal text-gray-500 mt-5 lg:text-xl">Donde Cada Bocado es una Experiencia Extraordinaria.</p>
+			</section>
+	
+			<img 
+				src="https://static.vecteezy.com/system/resources/previews/021/333/207/original/white-plate-with-food-isolated-on-a-transparent-background-png.png"
+				class="w-[450px]"
+			/>
+		</div>
+
+		<LandingProducts client:load />
+
+		<Reviews client:load />
+	</main>
+</Template>

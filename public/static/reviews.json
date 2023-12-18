@@ -1,0 +1,41 @@
+{
+    "reviews": [
+        {
+            "name": "Ana García",
+            "stars": 4,
+            "content": "La presentación de los platos es espectacular, y la atención al cliente es de primera calidad.",
+            "posted_at": "2023-03-12T19:45:00Z"
+        },
+        {
+            "name": "Carlos Rodríguez",
+            "stars": 5,
+            "content": "Una experiencia gastronómica única. Cada plato es una delicia para el paladar.",
+            "posted_at": "2023-03-11T21:00:00Z"
+        },
+        {
+            "name": "Isabel Pérez",
+            "stars": 3,
+            "content": "La comida estuvo bien, pero esperaba un poco más en términos de variedad en el menú.",
+            "posted_at": "2023-03-10T14:30:00Z"
+        },
+        {
+            "name": "Miguel López",
+            "stars": 4,
+            "content": "Ambiente elegante y acogedor. La atención del personal es impecable.",
+            "posted_at": "2023-03-09T22:15:00Z"
+        },
+        {
+            "name": "Laura Martínez",
+            "stars": 5,
+            "content": "Cada plato es una obra de arte. La combinación de sabores es excepcional.",
+            "posted_at": "2023-03-08T18:00:00Z"
+        },
+        {
+            "name": "Alejandro Ruiz",
+            "stars": 4,
+            "content": "Me encantó la creatividad en la presentación de los platos. Excelente cocina.",
+            "posted_at": "2023-03-07T20:45:00Z"
+        }
+    ]
+}
+  
