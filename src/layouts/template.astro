@@ -1,11 +1,13 @@
 --- 
 
 import Header from '../components/header.static.astro'
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
 
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang={ i18next.language }>
     <head>
         <meta charset="UTF-8">
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -13,7 +15,8 @@ import Header from '../components/header.static.astro'
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" /> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-        <title>Lux | Restaurant</title> 
+        <title>{ t("app.name") }</title>
+        <HeadHrefLangs /> 
     </head>
 
     <body class="bg-main text-black flex flex-col items-center">

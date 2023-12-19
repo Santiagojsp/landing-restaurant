@@ -1,0 +1,34 @@
+{
+    "app.name": "Restaurant Luxe | Accueil",
+    "header": {
+        "h1": {
+            "first": "Dégustez l'Art de la ",
+            "second": "Exquisité"
+        },
+        "h2": {
+            "first": "Où Chaque Bouchée est une Expérience Extraordinaire."
+        }
+    },
+    "section1": {
+        "h2": "Avis de nos clients",
+        "p": "L'expérience et la satisfaction de nos clients sont primordiales pour nous."
+    },
+    "section2": {
+        "h2": "Souhaitez-vous que nous vous contactions?",
+        "p": "Laissez votre adresse e-mail, et nous vous contacterons dès que possible."
+    },
+    "section3": {
+        "h2": "Adresse",
+        "p": "Plaza Cataluña, 20, Barcelone"
+    },
+    "section4": {
+        "h2": "Horaires",
+        "p1": "Lundi à Vendredi",
+        "p2": "Samedi",
+        "p3": "Dimanche"
+    },
+    "section5": {
+        "h2": "Contactez-nous",
+        "p": "contact@restaurantesluxe.com"
+    }   
+}

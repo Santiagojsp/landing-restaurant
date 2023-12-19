@@ -1,0 +1,35 @@
+{
+    "app.name": "Restaurante Luxe | Inicio",
+    "header": {
+        "h1": {
+            "first": "Degustando el Arte de la ",
+            "second": "Exquisitez"
+        },
+        "h2": {
+            "first": "Donde Cada Bocado es una Experiencia Extraordinaria."
+        }
+    },
+    "section1": {
+        "h2": "Opiniones de nuestros clientes",
+        "p": "La experiencia y satisfacción de nuestros clientes es lo más importante para nosotros."
+    },
+    "section2": {
+        "h2": "¿Quieres que te contactemos?",
+        "p": "Deja tu correo y te contactaremos lo antes posible."
+    },
+    "section3": {
+        "h2": "Dirección",
+        "p": "Plaza Cataluña, 20, Barcelona"
+    },
+    "section4": {
+        "h2": "Horario",
+        "p1": "Lunes a Viernes",
+        "p2": "Sábado",
+        "p3": "Domingo"
+    },
+    "section5": {
+        "h2": "Contáctanos",
+        "p": "contacto@restaurantesluxe.com"
+    }
+}
+  
