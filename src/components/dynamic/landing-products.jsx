@@ -7,7 +7,10 @@ export default function LandingProducts() {
     const [current, setCurrent] = useState(0)
 
     useEffect(() => {
-        fetch('/static/products.json')
+        const pathWithoutSlashes = window.location.pathname.replace(/^\/|\/$/g, '');
+        const segments = pathWithoutSlashes.split('/');
+
+        fetch(`/locales/${ segments[0] || 'es' }/products.json`)
             .then(response => response.json())
             .then(data => handleData(data))
     }, [])

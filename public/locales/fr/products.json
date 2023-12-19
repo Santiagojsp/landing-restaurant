@@ -1,0 +1,114 @@
+{
+    "categories": [ 
+        {
+            "name": "Les plus populaires",
+            "image": "https://www.nicepng.com/png/full/54-546056_aged-care-diet-consultants-food-plate-top-view.png"
+        },
+        {
+            "name": "Vins",
+            "image": "https://png.pngtree.com/png-vector/20230902/ourmid/pngtree-wine-glass-isolate-png-image_9530163.png"
+        },
+        {
+            "name": "Spécialités",
+            "image": "https://i.pinimg.com/originals/ac/6b/fd/ac6bfd9ed461fab5aad246a4e4d46cd8.png"
+        }
+    ], 
+    "products": [
+        {
+            "name": "Boulettes de viande à la sauce tomate",
+            "price": 12.30,
+            "category": "Les plus populaires",
+            "description": "Boulettes de viande dans une sauce tomate maison"
+        },
+        {
+            "name": "Ailes de poulet",
+            "price": 10.50,
+            "category": "Les plus populaires",
+            "description": "Ailes de poulet frites"
+        },
+        {
+            "name": "Palourdes à la marinière",
+            "price": 15.00,
+            "category": "Les plus populaires",
+            "description": "Palourdes à la marinière avec sauce tomate"
+        }, 
+        {
+            "name": "Riz à la cubaine",
+            "price": 8.50,
+            "category": "Les plus populaires",
+            "description": "Riz avec tomate et œuf frit"
+        }, 
+        {
+            "name": "Riz au homard",
+            "price": 18.50,
+            "category": "Les plus populaires",
+            "description": "Riz au homard"
+        },
+        {
+            "name": "Riz au lait",
+            "price": 5.50,
+            "category": "Les plus populaires",
+            "description": "Riz au lait"
+        },
+        {
+            "name": "Riz au poulet",
+            "price": 10.50,
+            "category": "Les plus populaires",
+            "description": "Riz au poulet"
+        },
+        {
+            "name": "Riveiro", 
+            "price": 12.50,
+            "category": "Vins",
+            "description": "Vin blanc de la région de Galice"
+        }, 
+        {
+            "name": "Rioja",
+            "price": 10.50,
+            "category": "Vins",
+            "description": "Vin rouge de la région de La Rioja"
+        },
+        {
+            "name": "Ribera del Duero",
+            "price": 11.50,
+            "category": "Vins",
+            "description": "Vin rouge de la région de Ribera del Duero"
+        },
+        {
+            "name": "Rueda",
+            "price": 9.50,
+            "category": "Vins",
+            "description": "Vin blanc de la région de Rueda"
+        },
+        {
+            "name": "Ribeiro",
+            "price": 10.50,
+            "category": "Vins",
+            "description": "Vin blanc de la région de Ribeiro"
+        },
+        {
+            "name": "Calamars à la romaine",
+            "price": 12.50,
+            "category": "Spécialités",
+            "description": "Calamars à la romaine"
+        },
+        {
+            "name": "Calamars en sauce à l'encre",
+            "price": 15.50,
+            "category": "Spécialités",
+            "description": "Calamars en sauce à l'encre"
+        },
+        {
+            "name": "Cannelloni",
+            "price": 10.50,
+            "category": "Spécialités",
+            "description": "Cannelloni à la viande"
+        },
+        {
+            "name": "Cannelloni à la viande",
+            "price": 12.50,
+            "category": "Spécialités",
+            "description": "Cannelloni à la viande"
+        }
+    ]
+}

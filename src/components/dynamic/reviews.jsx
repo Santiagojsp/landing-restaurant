@@ -1,12 +1,15 @@
 import {
     useState, useEffect
-} from 'react'
+} from 'react' 
 
 export default function Reviews() {
-    const [reviews, handleReviews] = useState([])
+    const [reviews, handleReviews] = useState([]) 
 
     useEffect(() => {
-        fetch('/static/reviews.json')
+        const pathWithoutSlashes = window.location.pathname.replace(/^\/|\/$/g, '');
+        const segments = pathWithoutSlashes.split('/');
+
+        fetch(`/locales/${ segments[0] || 'es' }/reviews.json`)
             .then(res => res.json())
             .then(data => handleReviews(data.reviews))
     }, [])
