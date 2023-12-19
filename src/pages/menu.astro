@@ -2,6 +2,7 @@
 
 import Template from "../layouts/template.astro";
 import Products from "../components/dynamic/products.jsx";
+import ShoppingCart from "../components/dynamic/cart.jsx";
 
 ---
 
@@ -12,16 +13,12 @@ import Products from "../components/dynamic/products.jsx";
 		draggable="false"
 	/>
 
-	<main class="mt-10 w-[95%] xl:w-[1100px] bg-white px-10 rounded"> 
+	<main class="mt-10 flex gap-10"> 
 		<Products 
 			client:load
 			extend={ true }
 		/>
-	</main>
 
-	<style>
-		input:focus {
-            outline: transparent !important;
-        }
-	</style>
+		<ShoppingCart client:load />
+	</main> 
 </Template>
