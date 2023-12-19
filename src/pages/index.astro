@@ -12,8 +12,8 @@ import LandingProducts from "../components/dynamic/landing-products.jsx";
 		draggable="false"
 	/>
 
-	<main class="mt-10 w-[1100px] bg-white px-10 rounded"> 
-		<div class="flex my-12 items-center">
+	<main class="mt-10 w-[95%] xl:w-[1100px] bg-white px-10 rounded"> 
+		<div class="flex flex-col gap-7 md:flex-row my-12 items-center">
 			<section class="flex flex-col">
 				<h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
 					{t("header.h1.first")}<span class="underline underline-offset-3 decoration-8 decoration-red-400">{t("header.h1.second")}</span>
@@ -41,7 +41,7 @@ import LandingProducts from "../components/dynamic/landing-products.jsx";
 	
 		<Reviews client:load />
 	
-		<div class="border-b mt-32 mb-10 pb-7 flex items-center justify-between">
+		<div class="border-b mt-32 mb-10 pb-7 flex flex-col lg:flex-row gap-5 lg:gap-0 items-center justify-between">
 			<section>
 				<h2 class="text-4xl">
 					{t("section2.h2")}
@@ -62,20 +62,20 @@ import LandingProducts from "../components/dynamic/landing-products.jsx";
 			</div>
 		</div>
 	
-		<div class="mb-20 flex justify-center items-center">
-			<section class="flex flex-col gap-3 px-10 border-r h-[200px] justify-center">
+		<div class="mb-20 flex flex-col lg:flex-row justify-center items-center">
+			<section class="flex flex-col gap-3 px-10 lg:border-r text-center h-[200px] justify-center">
 				<h2 class="text-4xl font-extrabold">
 					{t("section3.h2")}
 				</h2>
 				<p>{t("section3.p")}</p>
 			</section>
 	
-			<section class="flex flex-col gap-3 px-20 border-r h-[200px] justify-center">
+			<section class="flex flex-col gap-3 px-20 lg:border-r text-center h-[200px] justify-center">
 				<h2 class="text-4xl font-extrabold">
 					{t("section4.h2")}
 				</h2>
 				<div class="flex gap-5 items-center">
-					<p class="flex-1">{t("section4.p1")}</p>
+					<p class="flex-1 whitespace-nowrap">{t("section4.p1")}</p>
 					<div class="flex items-center gap-2">
 						<span class="bg-gray-100 px-2 py-1">
 							10:00
@@ -88,7 +88,7 @@ import LandingProducts from "../components/dynamic/landing-products.jsx";
 				</div>
 
 				<div class="flex gap-5 items-center">
-					<p class="flex-1">{t("section4.p2")}</p>
+					<p class="flex-1 whitespace-nowrap">{t("section4.p2")}</p>
 					<div class="flex items-center gap-2">
 						<span class="bg-red-400 text-white px-2 py-1">
 							13:00
@@ -101,14 +101,14 @@ import LandingProducts from "../components/dynamic/landing-products.jsx";
 				</div>
 				
 				<div class="flex gap-5 items-center">
-					<p class="flex-1">{t("section4.p3")}</p>
+					<p class="flex-1 whitespace-nowrap">{t("section4.p3")}</p>
 					<div class="bg-orange-400 text-white px-2 py-1">
 						{t("section4.p3")}
 					</div>
 				</div>				
 			</section>
 	
-			<section class="flex flex-col gap-3 px-10 h-[200px] justify-center">
+			<section class="flex flex-col gap-3 px-10 h-[200px] text-center justify-center">
 				<h2 class="text-4xl font-extrabold">
 					{t("section5.h2")}
 				</h2>

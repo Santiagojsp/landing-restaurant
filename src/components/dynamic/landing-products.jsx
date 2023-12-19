@@ -16,7 +16,7 @@ export default function LandingProducts() {
     }, [])
 
     return <div className="flex flex-col py-10">
-        <section className="flex gap-5">
+        <section className="flex flex-wrap gap-5">
             {
                 data.categories && data.categories.map((category, index) => {
                     return <button 
@@ -30,8 +30,8 @@ export default function LandingProducts() {
             }
         </section>
 
-        <section className="flex mt-10 h-[500px]">
-            <div className="flex-1 bg-gray-50 flex items-center justify-center">
+        <section className="flex flex-col md:flex-row gap-7 md:gap-0 mt-10 h-auto md:h-[500px]">
+            <div className="flex-1 bg-gray-50 rounded flex items-center justify-center">
                 <img 
                     src={ data.categories && data.categories[current] && data.categories[current].image }
                     className="w-[450px]"

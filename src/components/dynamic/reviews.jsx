@@ -21,10 +21,7 @@ export default function Reviews() {
             ) => {
                 return <div 
                     key={ index }
-                    className="p-5 bg-gray-50/70 rounded-lg flex flex-col"
-                    style={{
-                        width: 'calc(33% - 1rem)'
-                    }}
+                    className="p-5 bg-gray-50/70 rounded-lg flex flex-col w-full md:w-[320px]"
                 >
                     <h3 className="whitespace-nowrap font-extrabold">
                         { review.name }
