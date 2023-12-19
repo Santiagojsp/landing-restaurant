@@ -7,30 +7,47 @@ import LandingProducts from "../components/dynamic/landing-products.jsx"
 ---
 
 <Template>
-	<main class="mt-5 w-[1100px]"> 
+	<img 
+		src="https://wallpaperbat.com/img/373004-culinary-wallpaper-shocking-culinary.jpg"
+		class="absolute top-0 left-0 w-full h-[850px] z-[-1] object-cover select-none"
+		draggable="false"
+	/>
+
+	<main class="mt-10 w-[1100px] bg-white px-10 rounded"> 
 		<div class="flex my-12 items-center">
 			<section class="flex flex-col">
-				<h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Degustando el Arte de la <span class="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Exquisitez</span></h1>
+				<h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Degustando el Arte de la <span class="underline underline-offset-3 decoration-8 decoration-red-400">Exquisitez</span></h1>
 				<p class="text-lg font-normal text-gray-500 mt-5 lg:text-xl">Donde Cada Bocado es una Experiencia Extraordinaria.</p>
 			</section>
 	
 			<img 
 				src="https://static.vecteezy.com/system/resources/previews/021/333/207/original/white-plate-with-food-isolated-on-a-transparent-background-png.png"
 				class="w-[450px]"
+				draggable="false"
 			/>
 		</div>
 
 		<LandingProducts client:load />
 
+		<section class="mt-10">
+			<h2 class="text-4xl">
+				Opiniones de nuestros clientes
+			</h2>
+
+			<p class="text-md mt-3 text-red-500">
+				La experiencia y satisfacción de nuestros clientes es lo más importante para nosotros.
+			</p>
+		</section>
+
 		<Reviews client:load />
 
-		<div class="border-b mt-16 mb-10 pb-7 flex items-center justify-between">
+		<div class="border-b mt-32 mb-10 pb-7 flex items-center justify-between">
 			<section>
 				<h2 class="text-4xl">
 					¿Quieres que te contactemos?
 				</h2>
 	
-				<p class="text-md mt-3 text-blue-500">
+				<p class="text-md mt-3 text-red-500">
 					Deja tu correo y te contactaremos lo antes posible.
 				</p>
 			</section>
@@ -81,13 +98,13 @@ import LandingProducts from "../components/dynamic/landing-products.jsx"
 					<p class="flex-1">Sábado</p>
 					
 					<div class="flex items-center gap-2">
-						<span class="bg-blue-400 text-white px-2 py-1">
+						<span class="bg-red-400 text-white px-2 py-1">
 							13:00
 						</span> 
 						
 						- 
 
-						<span class="bg-blue-400 text-white px-2 py-1">
+						<span class="bg-red-400 text-white px-2 py-1">
 							24:00
 						</span>
 					</div>
@@ -111,4 +128,10 @@ import LandingProducts from "../components/dynamic/landing-products.jsx"
 			</section>
 		</div> 
 	</main>
+
+	<style>
+		input:focus {
+            outline: transparent !important;
+        }
+	</style>
 </Template>

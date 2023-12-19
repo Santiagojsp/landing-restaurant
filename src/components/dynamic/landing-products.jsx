@@ -17,7 +17,7 @@ export default function LandingProducts() {
             {
                 data.categories && data.categories.map((category, index) => {
                     return <button 
-                        className={ `border border-blue-400 ${ current === index ? 'bg-blue-400 text-white' : ' text-blue-400' } px-5 py-2` }
+                        className={ `border border-red-400 ${ current === index ? 'bg-red-400 text-white' : ' text-red-400' } px-5 py-2` }
                         onClick={ () => setCurrent(index) }
                         key={ index }
                     >
@@ -28,10 +28,11 @@ export default function LandingProducts() {
         </section>
 
         <section className="flex mt-10 h-[500px]">
-            <div className="flex-1 bg-gray-50/70 flex items-center justify-center">
+            <div className="flex-1 bg-gray-50 flex items-center justify-center">
                 <img 
                     src={ data.categories && data.categories[current] && data.categories[current].image }
                     className="w-[450px]"
+                    draggable="false"
                 />
             </div>
 
@@ -50,7 +51,7 @@ export default function LandingProducts() {
                                     </p> 
                                 </section>
 
-                                <p className="text-md  text-blue-500">
+                                <p className="text-md  text-red-500">
                                     €{ product.price }
                                 </p> 
                             </div>
