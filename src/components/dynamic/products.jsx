@@ -14,7 +14,7 @@ export default function Products({
 
         const availableLanguages = ['fr', 'es', 'en']
 
-        fetch(`/locales/${ segments[0] && availableLanguages.includes(segments[0]) || 'es' }/products.json`)
+        fetch(`/locales/${ segments[0] && availableLanguages.includes(segments[0]) ? segments[0] : 'es' }/products.json`)
             .then(response => response.json())
             .then(data => handleData(data))
     }, [])

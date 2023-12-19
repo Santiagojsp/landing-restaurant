@@ -11,7 +11,7 @@ export default function Reviews() {
 
         const availableLanguages = ['fr', 'es', 'en']
 
-        fetch(`/locales/${ segments[0] && availableLanguages.includes(segments[0]) || 'es' }/reviews.json`)
+        fetch(`/locales/${ segments[0] && availableLanguages.includes(segments[0]) ? segments[0] : 'es' }/reviews.json`)
             .then(res => res.json())
             .then(data => handleReviews(data.reviews))
     }, [])
