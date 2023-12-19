@@ -9,7 +9,9 @@ export default function Reviews() {
         const pathWithoutSlashes = window.location.pathname.replace(/^\/|\/$/g, '');
         const segments = pathWithoutSlashes.split('/');
 
-        fetch(`/locales/${ segments[0] || 'es' }/reviews.json`)
+        const availableLanguages = ['fr', 'es', 'en']
+
+        fetch(`/locales/${ segments[0] && availableLanguages.includes(segments[0]) || 'es' }/reviews.json`)
             .then(res => res.json())
             .then(data => handleReviews(data.reviews))
     }, [])

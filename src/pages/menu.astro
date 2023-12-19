@@ -1,0 +1,27 @@
+---
+
+import Template from "../layouts/template.astro";
+import Products from "../components/dynamic/products.jsx";
+
+---
+
+<Template>
+    <img 
+		src="https://wallpaperbat.com/img/373004-culinary-wallpaper-shocking-culinary.jpg"
+		class="absolute top-0 left-0 w-full h-[850px] z-[-1] object-cover select-none"
+		draggable="false"
+	/>
+
+	<main class="mt-10 w-[95%] xl:w-[1100px] bg-white px-10 rounded"> 
+		<Products 
+			client:load
+			extend={ true }
+		/>
+	</main>
+
+	<style>
+		input:focus {
+            outline: transparent !important;
+        }
+	</style>
+</Template>

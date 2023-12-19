@@ -2,7 +2,9 @@
 import { t, changeLanguage } from "i18next";
 import Template from "../layouts/template.astro";
 import Reviews from "../components/dynamic/reviews.jsx";
-import LandingProducts from "../components/dynamic/landing-products.jsx"; 
+import Products from "../components/dynamic/products.jsx";
+
+changeLanguage("es");
 ---
 
 <Template>
@@ -28,7 +30,7 @@ import LandingProducts from "../components/dynamic/landing-products.jsx";
 			/>
 		</div>
 	
-		<LandingProducts client:load />
+		<Products client:load />
 	
 		<section class="mt-10">
 			<h2 class="text-4xl">

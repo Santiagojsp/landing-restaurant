@@ -2,7 +2,9 @@ import {
     useState, useEffect
 } from 'react'
 
-export default function LandingProducts() {
+export default function Products({
+    extend = false, 
+}) {
     const [data, handleData] = useState([])
     const [current, setCurrent] = useState(0)
 
@@ -10,7 +12,9 @@ export default function LandingProducts() {
         const pathWithoutSlashes = window.location.pathname.replace(/^\/|\/$/g, '');
         const segments = pathWithoutSlashes.split('/');
 
-        fetch(`/locales/${ segments[0] || 'es' }/products.json`)
+        const availableLanguages = ['fr', 'es', 'en']
+
+        fetch(`/locales/${ segments[0] && availableLanguages.includes(segments[0]) || 'es' }/products.json`)
             .then(response => response.json())
             .then(data => handleData(data))
     }, [])
