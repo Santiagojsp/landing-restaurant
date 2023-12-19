@@ -30,6 +30,16 @@
     "section5": {
         "h2": "Contáctanos",
         "p": "contacto@restaurantesluxe.com"
+    },
+    "components": {
+        "header": {
+            "name": "Restaurante Luxe",
+            "menu": {
+                "home": "Inicio",
+                "products": "Carta"
+            }
+        },
+        "footer": "© 2024 Restaurante Luxe. Todos los derechos reservados."
     }
 }
   

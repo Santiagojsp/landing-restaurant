@@ -1,19 +1,26 @@
+---
+
+import { t } from "i18next";
+import { LanguageSelector } from "astro-i18next/components";
+
+---
+
 <nav class="w-screen py-5 px-7 flex items-center justify-between border-b bg-white">
     <h2 class="text-2xl">
-        Luxe Restaurant
+        { t('components.header.name') }
     </h2>
 
     <ul class="flex gap-5">
         <li>
-            Inicio
+            { t('components.header.menu.home') }
         </li>
 
         <li>
-            Carta
+            { t('components.header.menu.products') }
         </li>
 
         <li>
-            Idioma
+            <LanguageSelector showFlag={ true } class="bg-white" />
         </li>
     </ul>
 
