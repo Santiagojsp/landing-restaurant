@@ -40,5 +40,13 @@
             }
         },
         "footer": "© 2024 Luxe Restaurant. All rights reserved."
-    }    
+    },
+    "menu": {
+        "add": "Add",
+        "remove": "Remove",
+        "product_amount": "Product Quantity",
+        "article_count": "Article Count",
+        "iva": "VAT",
+        "total": "Total"
+    }
 }
