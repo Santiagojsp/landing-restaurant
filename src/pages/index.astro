@@ -2,7 +2,6 @@
 import { t, changeLanguage } from "i18next";
 import Template from "../layouts/template.astro";
 import Reviews from "../components/dynamic/reviews.jsx";
-import Products from "../components/dynamic/products.jsx";
 
 changeLanguage("es");
 ---
@@ -29,8 +28,6 @@ changeLanguage("es");
 				draggable="false"
 			/>
 		</div>
-	
-		<Products client:load />
 	
 		<section class="mt-10">
 			<h2 class="text-4xl">

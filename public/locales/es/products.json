@@ -18,97 +18,113 @@
             "name": "Albondigas en salsa",
             "price": 12.30,
             "category": "Más conocidos",
-            "description": "Albondigas en salsa de tomate casera"
+            "description": "Albondigas en salsa de tomate casera",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         },
         {
             "name": "Alitas de pollo",
             "price": 10.50,
             "category": "Más conocidos",
-            "description": "Alitas de pollo fritas"
+            "description": "Alitas de pollo fritas",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         },
         {
             "name": "Almejas a la marinera",
             "price": 15.00,
             "category": "Más conocidos",
-            "description": "Almejas a la marinera con salsa de tomate"
+            "description": "Almejas a la marinera con salsa de tomate",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         }, 
         {
             "name": "Arroz a la cubana",
             "price": 8.50,
             "category": "Más conocidos",
-            "description": "Arroz con tomate y huevo frito"
+            "description": "Arroz con tomate y huevo frito",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         }, 
         {
             "name": "Arroz con bogavante",
             "price": 18.50,
             "category": "Más conocidos",
-            "description": "Arroz con bogavante"
+            "description": "Arroz con bogavante",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         },
         {
             "name": "Arroz con leche",
             "price": 5.50,
             "category": "Más conocidos",
-            "description": "Arroz con leche"
+            "description": "Arroz con leche",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         },
         {
             "name": "Arroz con pollo",
             "price": 10.50,
             "category": "Más conocidos",
-            "description": "Arroz con pollo"
+            "description": "Arroz con pollo",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         },
         {
             "name": "Riveiro", 
             "price": 12.50,
             "category": "Vinos",
-            "description": "Vino blanco de la zona de Galicia"
+            "description": "Vino blanco de la zona de Galicia",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         }, 
         {
             "name": "Rioja",
             "price": 10.50,
             "category": "Vinos",
-            "description": "Vino tinto de la zona de La Rioja"
+            "description": "Vino tinto de la zona de La Rioja",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         },
         {
             "name": "Ribera del Duero",
             "price": 11.50,
             "category": "Vinos",
-            "description": "Vino tinto de la zona de Ribera del Duero"
+            "description": "Vino tinto de la zona de Ribera del Duero",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         },
         {
             "name": "Rueda",
             "price": 9.50,
             "category": "Vinos",
-            "description": "Vino blanco de la zona de Rueda"
+            "description": "Vino blanco de la zona de Rueda",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         },
         {
             "name": "Ribeiro",
             "price": 10.50,
             "category": "Vinos",
-            "description": "Vino blanco de la zona de Ribeiro"
+            "description": "Vino blanco de la zona de Ribeiro",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         },
         {
             "name": "Calamares a la romana",
             "price": 12.50,
             "category": "Especialidades",
-            "description": "Calamares a la romana"
+            "description": "Calamares a la romana",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         },
         {
             "name": "Calamares en su tinta",
             "price": 15.50,
             "category": "Especialidades",
-            "description": "Calamares en su tinta"
+            "description": "Calamares en su tinta",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         },
         {
             "name": "Canelones",
             "price": 10.50,
             "category": "Especialidades",
-            "description": "Canelones de carne"
+            "description": "Canelones de carne",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         },
         {
             "name": "Canelones de carne",
             "price": 12.50,
             "category": "Especialidades",
-            "description": "Canelones de carne"
+            "description": "Canelones de carne",
+            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
         }
     ]
 }

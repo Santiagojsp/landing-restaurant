@@ -1,22 +1,29 @@
 ---
 
 import { t } from "i18next";
-import { LanguageSelector } from "astro-i18next/components";
+import { localizePath } from "astro-i18next";
+import { LanguageSelector } from "astro-i18next/components"; 
 
 ---
 
 <nav class="w-screen py-5 px-7 flex flex-col md:flex-row gap-5 items-center justify-between border-b bg-white">
-    <h2 class="text-2xl">
-        { t('components.header.name') }
+    <h2 class="text-2xl select-none cursor-pointer">
+        <a href={ localizePath("/") }>
+            { t('components.header.name') }
+        </a>
     </h2>
 
     <ul class="flex gap-5">
         <li>
-            { t('components.header.menu.home') }
+            <a href={ localizePath("/") }>
+                { t('components.header.menu.home') }
+            </a>
         </li>
 
         <li>
-            { t('components.header.menu.products') }
+            <a href={ localizePath("/menu") }>
+                { t('components.header.menu.products') }
+            </a>
         </li>
 
         <li>
