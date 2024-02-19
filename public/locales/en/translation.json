@@ -1,5 +1,5 @@
 {
-    "app.name": "Luxe Restaurant | Home",
+    "app.name": "Lux Restaurant | Home",
     "header": {
         "h1": {
             "first": "Savoring the Art of ",
@@ -29,16 +29,16 @@
     },
     "section5": {
         "h2": "Contact Us",
-        "p": "contact@restaurantesluxe.com"
+        "p": "contact@restaurantesLux.com"
     },
     "components": {
         "header": {
-            "name": "Luxe Restaurant",
+            "name": "Lux Restaurant",
             "menu": {
                 "home": "Home",
                 "products": "Menu"
             }
         },
-        "footer": "© 2024 Luxe Restaurant. All rights reserved."
+        "footer": "© 2024 Lux Restaurant. All rights reserved."
     }
 }

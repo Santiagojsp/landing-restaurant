@@ -1,5 +1,5 @@
 {
-    "app.name": "Restaurant Luxe | Accueil",
+    "app.name": "Restaurant Lux | Accueil",
     "header": {
         "h1": {
             "first": "Dégustez l'Art de la ",
@@ -29,16 +29,16 @@
     },
     "section5": {
         "h2": "Contactez-nous",
-        "p": "contact@restaurantesluxe.com"
+        "p": "contact@restaurantesLux.com"
     },
     "components": {
         "header": {
-            "name": "Restaurant Luxe",
+            "name": "Restaurant Lux",
             "menu": {
                 "home": "Accueil",
                 "products": "Carte"
             }
         },
-        "footer": "© 2024 Restaurant Luxe. Tous droits réservés."
+        "footer": "© 2024 Restaurant Lux. Tous droits réservés."
     }
 }
