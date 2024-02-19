@@ -1,4 +1,4 @@
-# Luxe Restaurant
+# Lux Restaurant
 
 Restaurant website interface made with Astro 4.0
 
@@ -7,7 +7,7 @@ Restaurant website interface made with Astro 4.0
 At first clone the repository from git
 
 ```
-git clone https://github.com/Xavimc04/luxe-restaurant
+git clone https://github.com/Xavimc04/landing-restaurant
 ```
 
 Open terminal a install dependencies (preferred)
