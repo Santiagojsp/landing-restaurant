@@ -40,14 +40,6 @@
             }
         },
         "footer": "© 2024 Restaurante Luxe. Todos los derechos reservados."
-    },
-    "menu": {
-        "add": "Añadir", 
-        "remove": "Eliminar",
-        "product_amount": "Cantidad de productos",
-        "article_count": "Cantidad de artículos",
-        "iva": "IVA",
-        "total": "Total"
     }
 }
   
