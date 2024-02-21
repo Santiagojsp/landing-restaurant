@@ -44,7 +44,7 @@ export default function Products({
             .then(data => handleData(data))
     }, [])
 
-    return <div className="flex flex-col py-10 lg:h-screen w-[90%] lg:w-[1100px] bg-white px-10 rounded mt-10">
+    return <div className="flex flex-col py-10 min-h-screen w-[90%] lg:w-[1100px] bg-white px-10 rounded mt-10">
         <section className="flex flex-wrap gap-5">
             {
                 data.categories && data.categories.map((category, index) => {
