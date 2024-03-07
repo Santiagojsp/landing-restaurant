@@ -251,6 +251,48 @@
             "price": 12.50,
             "category": "Cervezas",
             "description": "",
+        },
+        {
+            "name": "Estrella Galicia",
+            "price": 12.50,
+            "category": "Cervezas",
+            "description": "",
+        },
+        {
+            "name": "Voll DAMM",
+            "price": 12.50,
+            "category": "Cervezas",
+            "description": "",
+        },
+        {
+            "name": "Estrella DAMM",
+            "price": 12.50,
+            "category": "Cervezas",
+            "description": "",
+        },
+        {
+            "name": "Mojito",
+            "price": 12.50,
+            "category": "Cocktails",
+            "description": "",
+        },
+        {
+            "name": "Tom Collins",
+            "price": 12.50,
+            "category": "Cocktails",
+            "description": "",
+        },
+        {
+            "name": "Aperol Spritz",
+            "price": 12.50,
+            "category": "Cocktails",
+            "description": "",
+        },
+        {
+            "name": "Mimosa de Frambuesa",
+            "price": 12.50,
+            "category": "Cocktails",
+            "description": "",
         }
     ]
 }
