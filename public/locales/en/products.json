@@ -1,130 +1,298 @@
 {
     "categories": [ 
         {
-            "name": "Most Popular",
+            "name": "Salad",
             "image": "https://www.nicepng.com/png/full/54-546056_aged-care-diet-consultants-food-plate-top-view.png"
         },
         {
-            "name": "Wines",
+            "name": "Tapas",
             "image": "https://png.pngtree.com/png-vector/20230902/ourmid/pngtree-wine-glass-isolate-png-image_9530163.png"
         },
         {
-            "name": "Specialties",
+            "name": "Sandwiches",
+            "image": "https://png.pngtree.com/png-vector/20230902/ourmid/pngtree-wine-glass-isolate-png-image_9530163.png"
+        },
+        {
+            "name": "Desserts",
+            "image": "https://png.pngtree.com/png-vector/20230902/ourmid/pngtree-wine-glass-isolate-png-image_9530163.png"
+        },
+        {
+            "name": "Drinks",
+            "image": "https://i.pinimg.com/originals/ac/6b/fd/ac6bfd9ed461fab5aad246a4e4d46cd8.png"
+        },
+        {
+            "name": "Beers",
+            "image": "https://i.pinimg.com/originals/ac/6b/fd/ac6bfd9ed461fab5aad246a4e4d46cd8.png"
+        },
+        {
+            "name": "Cocktails",
             "image": "https://i.pinimg.com/originals/ac/6b/fd/ac6bfd9ed461fab5aad246a4e4d46cd8.png"
         }
     ], 
     "products": [
         {
-            "name": "Meatballs in Tomato Sauce",
+            "name": "Ensalada de Queso de Cabra",
             "price": 12.30,
-            "category": "Most Popular",
-            "description": "Meatballs in homemade tomato sauce",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Salad",
+            "description": "Ensalada fresca de lechuga romana, pollo a la plancha, picatostes, queso parmesano y aderezo César. Un clásico reinventado con un toque contemporáneo",
         },
         {
-            "name": "Chicken Wings",
+            "name": "Ensalada César",
             "price": 10.50,
-            "category": "Most Popular",
-            "description": "Fried chicken wings",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Salad",
+            "description": "Ensalada fresca de lechuga romana, pollo a la parrilla, picatostes crujientes, queso parmesano y aderezo César. Un clásico reinventado con un toque contemporáneo",
         },
         {
-            "name": "Mariner-Style Clams",
+            "name": "Stracciatella",
             "price": 15.00,
-            "category": "Most Popular",
-            "description": "Mariner-style clams with tomato sauce",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Salad",
+            "description": "Ensalada de queso Stracciatella con piñones, tomate cherry, picatostes de pan de oliva y rúcula fresca. Una combinación fresca y vibrante de sabores mediterráneos",
         }, 
         {
-            "name": "Cuban Rice",
+            "name": "Arepitas de pollo y queso",
             "price": 8.50,
-            "category": "Most Popular",
-            "description": "Rice with tomato and fried egg",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Tapas",
+            "description": "Mini arepitas de pollo y queso blanco",
         }, 
         {
-            "name": "Lobster Rice",
+            "name": "Arepita Maracucha",
             "price": 18.50,
-            "category": "Most Popular",
-            "description": "Lobster rice",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Tapas",
+            "description": "Mini arepita Maracucha, de queso blanco con tajadas",
         },
         {
-            "name": "Rice Pudding",
+            "name": "Croquetas de jamón",
             "price": 5.50,
-            "category": "Most Popular",
-            "description": "Rice pudding",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Tapas",
+            "description": "",
         },
         {
-            "name": "Chicken Rice",
+            "name": "Croquetas de gorgonzola",
             "price": 10.50,
-            "category": "Most Popular",
-            "description": "Chicken rice",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Tapas",
+            "description": "",
         },
         {
-            "name": "Riveiro", 
+            "name": "Croqueta de Gamba", 
             "price": 12.50,
-            "category": "Wines",
-            "description": "White wine from the Galicia region",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Tapas",
+            "description": "",
         }, 
         {
-            "name": "Rioja",
+            "name": "Buñuelos de Bacalao",
             "price": 10.50,
-            "category": "Wines",
-            "description": "Red wine from the La Rioja region",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Tapas",
+            "description": "",
         },
         {
-            "name": "Ribera del Duero",
+            "name": "Lacón",
             "price": 11.50,
-            "category": "Wines",
-            "description": "Red wine from the Ribera del Duero region",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Tapas",
+            "description": "Una base de patatas horneadas con Lacón fresco y pimentón rojo",
         },
         {
-            "name": "Rueda",
+            "name": "Langostinos en kikos",
             "price": 9.50,
-            "category": "Wines",
-            "description": "White wine from the Rueda region",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Tapas",
+            "description": "Langostinos rebozados en kikos con mayo de lima",
         },
         {
-            "name": "Ribeiro",
+            "name": "Calamares en tempura",
             "price": 10.50,
-            "category": "Wines",
-            "description": "White wine from the Ribeiro region",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Tapas",
+            "description": "Calamares rebozados en nuestra tempura, acompañado de nuestra mayo de lima",
         },
         {
-            "name": "Roman-Style Calamari",
+            "name": "Gambas TNT",
             "price": 12.50,
-            "category": "Specialties",
-            "description": "Roman-style calamari",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Tapas",
+            "description": "Gambas rebozadas en nuestra tempura, junto con nuestra salsa TNT casera",
         },
         {
-            "name": "Squid in Ink Sauce",
+            "name": "Milhojas de Patatas Bravas",
             "price": 15.50,
-            "category": "Specialties",
-            "description": "Squid in ink sauce",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Tapas",
+            "description": "",
         },
         {
-            "name": "Cannelloni",
+            "name": "Quesadillas",
             "price": 10.50,
-            "category": "Specialties",
-            "description": "Meat cannelloni",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Tapas",
+            "description": "Quesadillas caseras acompañadas de pico de gallo, guacamole y salsa agria",
         },
         {
-            "name": "Meat Cannelloni",
+            "name": "Nachos con queso",
+            "price": 10.50,
+            "category": "Tapas",
+            "description": "Nachos de la casa con queso mozzarella, queso cheddar, pico de gallo y guacamole",
+        },
+        {
+            "name": "Tiradito de Salmón",
+            "price": 10.50,
+            "category": "Tapas",
+            "description": "Descubre nuestra explosiva combinación de salmón ahumado, cremoso aguacate y nuestra irresistible salsa casera de ají amarillo",
+        },
+        {
+            "name": "Burger",
+            "price": 10.50,
+            "category": "Sandwiches",
+            "description": "Descubre nuestra Burger con tomate, lechuga, cebolla morada y nuestra mayo okonomiyaki",
+        },
+        {
+            "name": "BLT Sandwich",
+            "price": 10.50,
+            "category": "Sandwiches",
+            "description": "Pan multicereal con beacon, lechuga, tomate y mayo",
+        },
+        {
+            "name": "Focacciella de pollo",
+            "price": 10.50,
+            "category": "Sandwiches",
+            "description": "focaccia con pollo empanado, queso parmesano, escarola y salsa de mostaza y miel",
+        },
+        {
+            "name": "Serranito",
+            "price": 10.50,
+            "category": "Sandwiches",
+            "description": "Serranito de lomo, queso, pimiento del verde",
+        },
+        {
+            "name": "Bocadillo de lomo",
+            "price": 10.50,
+            "category": "Sandwiches",
+            "description": "rúcula, mayo, tomate, pimiento escalivado",
+        },
+        {
+            "name": "Bocadillo de pollo rebozado",
+            "price": 10.50,
+            "category": "Sandwiches",
+            "description": "Salsa Tártara, lechuga, queso",
+        },
+        {
+            "name": "Bocadillo de calamares",
+            "price": 10.50,
+            "category": "Sandwiches",
+            "description": "Mayo lima, brioche, cebollino, Tabasco",
+        },
+        {
+            "name": "Bocadillo Pulled Pork",
+            "price": 10.50,
+            "category": "Sandwiches",
+            "description": "Brioche, Cebolla morada, rúcula",
+        },
+        {
+            "name": "Cheesecake",
             "price": 12.50,
-            "category": "Specialties",
-            "description": "Meat cannelloni",
-            "image": "https://static.vecteezy.com/system/resources/previews/021/311/734/original/pizza-transparent-background-png.png"
+            "category": "Desserts",
+            "description": "",
+        },
+        {
+            "name": "Helado",
+            "price": 12.50,
+            "category": "Desserts",
+            "description": "Paleta de helado de Mango, Choco o Fresa",
+        },
+        {
+            "name": "Macedonia",
+            "price": 12.50,
+            "category": "Desserts",
+            "description": "Frutas frescas del dia",
+        },
+        {
+            "name": "Coca Cola",
+            "price": 12.50,
+            "category": "Drinks",
+            "description": "",
+        },
+        {
+            "name": "Coca Cola Zero",
+            "price": 12.50,
+            "category": "Drinks",
+            "description": "",
+        },
+        {
+            "name": "Fanta Naranja",
+            "price": 12.50,
+            "category": "Drinks",
+            "description": "",
+        },
+        {
+            "name": "Fanta Limón",
+            "price": 12.50,
+            "category": "Drinks",
+            "description": "",
+        },
+        {
+            "name": "Nestea",
+            "price": 12.50,
+            "category": "Drinks",
+            "description": "",
+        },
+        {
+            "name": "Aquarius",
+            "price": 12.50,
+            "category": "Drinks",
+            "description": "",
+        },
+        {
+            "name": "Agua",
+            "price": 12.50,
+            "category": "Drinks",
+            "description": "",
+        },
+        {
+            "name": "Vichy",
+            "price": 12.50,
+            "category": "Drinks",
+            "description": "",
+        },
+        {
+            "name": "Estrella DAMM",
+            "price": 12.50,
+            "category": "Beers",
+            "description": "",
+        },
+        {
+            "name": "Estrella Galicia",
+            "price": 12.50,
+            "category": "Beers",
+            "description": "",
+        },
+        {
+            "name": "Voll DAMM",
+            "price": 12.50,
+            "category": "Beers",
+            "description": "",
+        },
+        {
+            "name": "Estrella DAMM",
+            "price": 12.50,
+            "category": "Beers",
+            "description": "",
+        },
+        {
+            "name": "Mojito",
+            "price": 12.50,
+            "category": "Cocktails",
+            "description": "",
+        },
+        {
+            "name": "Tom Collins",
+            "price": 12.50,
+            "category": "Cocktails",
+            "description": "",
+        },
+        {
+            "name": "Aperol Spritz",
+            "price": 12.50,
+            "category": "Cocktails",
+            "description": "",
+        },
+        {
+            "name": "Mimosa de Frambuesa",
+            "price": 12.50,
+            "category": "Cocktails",
+            "description": "",
         }
     ]
 }
