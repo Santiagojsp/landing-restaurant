@@ -147,37 +147,37 @@
         {
             "name": "Focacciella de pollo",
             "price": 10.50,
-            "category": "Tapas",
+            "category": "Bocadillos",
             "description": "focaccia con pollo empanado, queso parmesano, escarola y salsa de mostaza y miel",
         },
         {
             "name": "Serranito",
             "price": 10.50,
-            "category": "Tapas",
+            "category": "Bocadillos",
             "description": "Serranito de lomo, queso, pimiento del verde",
         },
         {
             "name": "Bocadillo de lomo",
             "price": 10.50,
-            "category": "Tapas",
+            "category": "Bocadillos",
             "description": "rúcula, mayo, tomate, pimiento escalivado",
         },
         {
             "name": "Bocadillo de pollo rebozado",
             "price": 10.50,
-            "category": "Tapas",
+            "category": "Bocadillos",
             "description": "Salsa Tártara, lechuga, queso",
         },
         {
             "name": "Bocadillo de calamares",
             "price": 10.50,
-            "category": "Tapas",
+            "category": "Bocadillos",
             "description": "Mayo lima, brioche, cebollino, Tabasco",
         },
         {
             "name": "Bocadillo Pulled Pork",
             "price": 10.50,
-            "category": "Tapas",
+            "category": "Bocadillos",
             "description": "Brioche, Cebolla morada, rúcula",
         },
         {
